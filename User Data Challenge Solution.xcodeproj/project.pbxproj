@@ -14,6 +14,8 @@
 		00A998BB19D0ACA5004E697E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00A998BA19D0ACA5004E697E /* Images.xcassets */; };
 		00A998BE19D0ACA5004E697E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00A998BC19D0ACA5004E697E /* LaunchScreen.xib */; };
 		00A998CA19D0ACA5004E697E /* User_Data_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A998C919D0ACA5004E697E /* User_Data_Challenge_SolutionTests.m */; };
+		00A998D519D0ACFD004E697E /* UserData.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A998D419D0ACFD004E697E /* UserData.m */; };
+		00A998DA19D0B3EF004E697E /* penni_puppy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00A998D919D0B3EF004E697E /* penni_puppy.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		00A998C319D0ACA5004E697E /* User Data Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "User Data Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00A998C819D0ACA5004E697E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00A998C919D0ACA5004E697E /* User_Data_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User_Data_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		00A998D319D0ACFD004E697E /* UserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserData.h; sourceTree = "<group>"; };
+		00A998D419D0ACFD004E697E /* UserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserData.m; sourceTree = "<group>"; };
+		00A998D919D0B3EF004E697E /* penni_puppy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = penni_puppy.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +88,9 @@
 			children = (
 				00A998B119D0ACA5004E697E /* AppDelegate.h */,
 				00A998B219D0ACA5004E697E /* AppDelegate.m */,
-				00A998B419D0ACA5004E697E /* ViewController.h */,
-				00A998B519D0ACA5004E697E /* ViewController.m */,
-				00A998B719D0ACA5004E697E /* Main.storyboard */,
+				00A998D619D0AD07004E697E /* View */,
+				00A998D819D0AD35004E697E /* Controller */,
+				00A998D719D0AD13004E697E /* Model */,
 				00A998BA19D0ACA5004E697E /* Images.xcassets */,
 				00A998BC19D0ACA5004E697E /* LaunchScreen.xib */,
 				00A998AD19D0ACA5004E697E /* Supporting Files */,
@@ -96,6 +101,7 @@
 		00A998AD19D0ACA5004E697E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				00A998D919D0B3EF004E697E /* penni_puppy.jpg */,
 				00A998AE19D0ACA5004E697E /* Info.plist */,
 				00A998AF19D0ACA5004E697E /* main.m */,
 			);
@@ -117,6 +123,32 @@
 				00A998C819D0ACA5004E697E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00A998D619D0AD07004E697E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				00A998B719D0ACA5004E697E /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		00A998D719D0AD13004E697E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				00A998D319D0ACFD004E697E /* UserData.h */,
+				00A998D419D0ACFD004E697E /* UserData.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		00A998D819D0AD35004E697E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				00A998B419D0ACA5004E697E /* ViewController.h */,
+				00A998B519D0ACA5004E697E /* ViewController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +234,7 @@
 				00A998B919D0ACA5004E697E /* Main.storyboard in Resources */,
 				00A998BE19D0ACA5004E697E /* LaunchScreen.xib in Resources */,
 				00A998BB19D0ACA5004E697E /* Images.xcassets in Resources */,
+				00A998DA19D0B3EF004E697E /* penni_puppy.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +254,7 @@
 			files = (
 				00A998B619D0ACA5004E697E /* ViewController.m in Sources */,
 				00A998B319D0ACA5004E697E /* AppDelegate.m in Sources */,
+				00A998D519D0ACFD004E697E /* UserData.m in Sources */,
 				00A998B019D0ACA5004E697E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +446,7 @@
 				00A998CF19D0ACA5004E697E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00A998D019D0ACA5004E697E /* Build configuration list for PBXNativeTarget "User Data Challenge SolutionTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +455,7 @@
 				00A998D219D0ACA5004E697E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
