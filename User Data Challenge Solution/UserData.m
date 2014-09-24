@@ -16,9 +16,9 @@
     
     NSDictionary *gigi = @{USER_NAME : @"Gigi", EMAIL : @"Penni@beagles.com", PASSWORD : @"hampster", AGE : @8};
     
-    NSDictionary *pepper = @{USER_NAME : @"Penni", EMAIL : @"Penni@beagles.com", PASSWORD : @"bad_dogs", AGE : @8};
+    NSDictionary *pepper = @{USER_NAME : @"Penni", EMAIL : @"Penni@beagles.com", PASSWORD : @"Boney", AGE : @8};
     
-    NSDictionary *katie = @{USER_NAME : @"Penni", EMAIL : @"Penni@beagles.com", PASSWORD : @"bad_dogs", AGE : @16, PROFILE_PICTURE : [UIImage imageNamed:@"penni_puppy"]};
+    NSDictionary *katie = @{USER_NAME : @"Katie", EMAIL : @"Penni@beagles.com", PASSWORD : @"viciousfang", AGE : @16};
     
     
     NSArray *usersArray = @[penni, gigi, pepper, katie];
